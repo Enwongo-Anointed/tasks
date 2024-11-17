@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: beige;
+}
+.wrapper{
+    position: fixed;
+    bottom: 50px;  /* 50px from the bottom that is. */
+    right: -370px;  /* -370px from the right that is, its hidden. */
+    /* why not just use display:none? above */
+    max-width: 345px;
+    width: 100%;
+    background: burlywood;
+    border-radius: 8px;
+    padding: 15px 22px;
+    transition: right  0.3s ease;
+}
+.wrapper.show{
+    right: 20px;  /* 20px from the right that is. */
+
+
+}
+.wrapper header{
+    display: flex;
+    align-items: center;
+    /* justify-self: center; */
+    gap: 0 15px;  /* <row gap> <column gap> */
+}
+header i{
+    color: brown;
+    font-size: 32px;
+}
+header h2{
+    color: brown;
+    font-weight: 500;
+}
+.wrapper .data{
+    margin-top: 16px;
+}
+.wrapper .data p{
+    color: rgb(88, 17, 73);
+    font-size: 16px;
+}
+.data p a{
+    color: blue;
+    text-decoration: none;
+}
+.data p a:hover{
+    text-decoration: underline;    
+}
+.wrapper .buttons{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttons .button{
+    border: none;
+    color: aliceblue;
+    padding: 8px 0;
+    border-radius: 4px;
+    background: rgb(93, 47, 83);
+    cursor: pointer;
+    width: calc(100% / 3 - 10px);
+    transition: all 0.2s ease;
+}
+.buttons .button:hover{
+    background-color: rgb(73, 62, 37);
+}

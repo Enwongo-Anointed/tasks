@@ -18,13 +18,28 @@ function addTask(){
     newTask.innerHTML = `
     <span> ${taskText}</span>
     <button id="delete">X</button>
-    `
+    `;
 
     tasks.appendChild(newTask);
 
 
     task.value = '';
 
+    // Add delete functionality to the 'X' button
+    // let deleteButton = newTask.querySelector('.delete');
+    // deleteButton.addEventListener('click', function() {
+    //     tasks.removeChild(newTask)
+    // });
+    
+    // ... (rest of your code)
+
+// Add event listener to the 'delete' button
+document.addEventListener('click', (event) => {
+    if (event.target.tagName === 'BUTTON' && event.target.id === 'delete') {
+        const liToDelete = event.target.parentElement; // Get the parent li element
+        liToDelete.remove(); // Remove the li element from the DOM
+    }
+});
 }
 
 // function addTask () {
