@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-between;
+}
+.basic-info{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeded;
+    line-height: 28px;
+}
+.basic-info h2.name{
+    color: #001e45;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.basic-info h2.profession{
+    font-size: 22px;
+    text-align: center;
+}
+.basic-info img{
+    border-radius: 700px;
+    padding-bottom: 15px;
+
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+    align-self: center;
+}
+.basic-info h2.about{
+    background-color: #001e45;
+    padding: 15px 50px;
+    color: rgb(171, 222, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basic-info p{
+    padding: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basic-info h2.contact{
+    background-color: #001e45;
+    padding: 15px 50px;
+    color: rgb(171, 222, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basic-info ul{
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.life{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(171, 222, 205);
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.life h2{
+    background-color: #001e45;
+    padding: 15px 50px;
+    color: rgb(171, 222, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.exp{
+    margin-top: 60px;
+}
+.life h3{
+    font-style: italic;
+    padding-left:  50px;
+    line-height: 10px;
+}
+.life ul{
+    list-style-type: circle;
+    padding-left:  70px;
+}
+.school{
+    font-weight: bold;
+}
+.last{
+    padding-bottom: 20px;
+}

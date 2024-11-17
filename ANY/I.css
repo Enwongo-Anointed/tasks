@@ -1,0 +1,285 @@
+:root{
+    --white: #f9f9f9;
+    --black: #36383F;
+    --gray: #fcfcfc;
+    --gray2: #d8d8d9;
+    --red: #cc2e2e;
+} /* variables*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    background-color: var(--gray);
+    padding: 8px 10px;
+}
+
+.head h5{
+    margin-right: 88vw;
+
+}
+
+.head i{
+    padding-right: 20px;
+    /* justify-content: center;  not working */
+}
+
+.head i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray);
+    float: left;
+    padding: 12px 0;
+    padding-left: 15px;
+    padding-right: 3px;
+    margin-right: 55px;
+    overflow: scroll;
+    height: 565px;
+    width: 300px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+    padding: 3px 0;
+    /* padding-left: 5px; */
+    align-items: center;
+    border-radius: 5px;
+    /* incomplete */
+}
+
+.fa-angle-down{
+    padding-left: 7px;
+}
+
+.fa-bell{
+    padding-left: 100px;
+}
+
+.user:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.user i{
+    justify-content: flex-end;
+    /* incomplete */
+}
+
+.user i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+.profile-icon{
+    /* padding-right: 9px; */
+    background-color: rgb(48, 48, 147);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; no effects */
+}
+
+.profile-icon button{
+    color: #fff;
+    border: none;
+    background-color: rgb(48, 48, 147);
+    cursor: pointer;
+}
+
+.first{
+    padding-bottom: 20px;
+}
+
+.first p{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 120px; */
+    padding: 7px 0;
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.first p:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.first i{
+    justify-content: flex-end;
+    /* incomplete */
+}
+
+.first i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+.second{
+    padding-bottom: 20px;
+}
+
+.second p{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 120px; */
+    padding: 7px 0;
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.second p:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.second i{
+    justify-content: flex-end;
+    /* incomplete */
+}
+
+.second i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+.third p{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 120px; */
+    padding: 7px 0;
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.third p:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.third i{
+    justify-content: flex-end;
+    /* incomplete */
+}
+
+.third i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+h4{
+    padding-bottom: 8px;
+}
+
+.pinned-top{
+    position: sticky;
+    top: 0;
+    background: var(--gray);
+}
+
+.pinned-top p{
+    font-weight: 550;
+    color: var(--red);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 120px; */
+    padding: 7px 0;
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.pinned-top p:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.pinned-top p i{
+    justify-content: flex-end;
+    /* incomplete */
+}
+
+.pinned-top p i:hover{
+    background-color: var(--gray2);
+    /* incomplete */
+}
+
+.fourth{
+    /* margin-top: 15px; */
+    position: sticky;
+    bottom: 0;
+    background: var(--gray);
+    /* background-color: var(--black); */
+}
+
+.fourth .heading{
+    margin-top: 8px;
+}
+
+.heading{
+    /* margin: 7px 1px; */
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 120px; */
+    padding: 7px 0;
+    padding-left: 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.heading:hover{
+    cursor: pointer;
+    background-color: var(--gray2);
+
+}
+
+.main{
+    /* float: right; */
+    padding-top: 12px;
+    /* margin-left: 100px; */
+    margin: 0 80px;
+}
+
+.content{
+    padding-top: 20px;
+}
+
+.content h1{
+    padding-bottom: 20px;
+} 
+.center{
+    /* will need to be realigned when picture is visible */
+    text-align-last: center;
+    padding-top: 100px;
+}
+.center p{
+    padding-left: 280px;
+}
+
+.last a{
+    text-decoration: underline;
+    color: var(--red);
+}

@@ -1,0 +1,40 @@
+body{
+    background: white;
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16;
+}
+h1{
+    font-weight: lighter;
+}
+h2{
+    font-weight: lighter;
+    font-size: 28px;
+}
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+}
+p{
+    margin-left: 20px;
+    margin-right: 150px; 
+}
+div{
+    float: right;
+    width: 350px;
+    height: 230px;
+    display: block;
+    border: 0.5px solid;
+    margin-left: 20px;
+    margin-right: 150px;
+    background-color: rgb(242, 244, 247); 
+} 
+img{
+    float: right;
+    border: 5px ridge rgb(242, 244, 247);
+    margin-left: 20px;
+    margin-right: 150px;
+}

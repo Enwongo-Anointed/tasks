@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d9d9da;
+    color: #0f0f1f;
+    line-height: 1.6;
+}
+
+.top{
+    background-image: url(https://img.freepik.com/free-vector/white-open-doors-isolated-illustration-shining-light-from-doorway-opening-freedom_1284-51591.jpg?semt=ais_hybrid);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    object-fit: contain;
+    margin: 0 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.name_icons{
+    position: relative;
+    z-index: 2;
+    text-align: top;
+    padding-left: 50px;
+    padding-top: 200px;
+    color: #0f0f1f;
+}
+
+.top h1{
+    font-size: 28px;
+    /* font-weight: bold; */
+}
+
+
+.my_services{
+    margin: 0 100px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.my_services h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 20px;
+    /* padding: 0 50px; */
+}
+
+.services div{
+    background-color: #a6a6a8;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-me{
+    margin: 0 100px;
+    text-align: center;
+}
+
+.about-me .content{
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.about-me h2{
+    font-size: 25px;
+}
+
+.about-me img{
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}

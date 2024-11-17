@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 20px;
+    background-color: #fff;
+}
+
+.header-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 12.5px;
+}
+
+.header-right a.G{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.header-right a.I{
+    margin-top: 5px;
+    margin-right: 0px;
+}
+.header-right a.S{
+    margin-top: -5px;
+    margin-right: 0px;
+}
+.header-right a.A{
+    margin-right: 15px;
+}
+
+.header-right a:hover{
+    text-decoration: underline;
+}
+
+.search-labs-icon{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* does not look nice */
+/* .search-labs-icon:hover{
+    background-color: grey;
+} */
+.search-labs-icon img{
+    height: 35px;
+    border-radius: 100%;
+    width: 60px;
+    height: 30px;
+}
+.google-apps-icon img{
+    height: 22.5px;
+    border-radius: 50%;
+}
+ /* does not look nice */
+/* .google-apps-icon:hover{
+    background-color: grey;
+} */
+.profile-icon{
+    margin-top: -4px;
+    background-color: rgb(48, 48, 147);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* does not look nice */
+/* .profile-icon:hover{
+    background-color: grey;
+} */
+.profile-icon button{
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(48, 48, 147);
+    cursor: pointer;
+}
+ /* does not look nice */
+/* .profile-icon button:hover{
+    background-color: grey;
+} */
+.main-content{ 
+    /* to be worked on */
+    flex-grow: 1; /* disable later */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .logo{
+    width: 270px; it changes nothing
+    height: auto; it changes nothing
+} */
+.search-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    /* margin-bottom: 25px;        saving this for later */
+}
+
+
+/* a lot of research and question asking required from here onwards... */
+.search-bar {
+    position: relative;
+    width: 575px;
+    height: 48px;
+  }
+  
+  .search-input {
+    width: 100%;
+    height: 100%;
+    padding: 0 70px 0 40px; /* Adds space for icons */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #9aa0a6;
+  }
+  
+  .fa-microphone {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color:rgb(125, 125, 88);
+    cursor: pointer;
+  }
+  
+  .fa-camera {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color:rgb(125, 125, 88);
+    cursor: pointer;
+  }
+  /* ...till here */
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px
+}
+.button-container button{
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.button-container button:hover{
+    border: 1px solid #c3c3c3;
+}
+.language-links{
+    margin-top: 25px;
+    font-size: 12.5px;
+}
+.language-links a{
+    margin: 0 5px;
+    text-decoration: none;
+}
+.language-links a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #f4f4f4;
+}
+/* I've not yet found use for them */
+.footer.country{}
+.footer.climate{
+    align-self: center;
+}
+.footer-last{
+    display: flex;
+    flex-direction: row;
+}
+.footer-last a{
+    /* border-top: 1px solid grey; */
+    margin-right: 15px;
+    text-decoration: none;
+    color: #666;
+}
+.footer-last a:hover{
+    text-decoration: underline;
+}
