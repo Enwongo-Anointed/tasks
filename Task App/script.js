@@ -23,7 +23,7 @@ function addTask(){
     tasks.appendChild(newTask);
 
 
-    task.value = '';
+    task.value = ''; //makes the input bar empty once again after submitting
 
     // Add delete functionality to the 'X' button
     // let deleteButton = newTask.querySelector('.delete');

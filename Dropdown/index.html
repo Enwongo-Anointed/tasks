@@ -11,11 +11,27 @@
 <body>
     <!-- <input type="text" class="input"> -->
      <form action="" class="input">
-        <label for="Options"> Choose your option: </label>
-            <select name="" id="">
-                <option value=""></option>
-            </select>
-            <input type="submit">
+        <label for="Options"> Choose what appeals to you: </label>
+        <select id="cars" name="cars">
+            <option value="" disabled selected>Select a car brand</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Bentley">Bentley</option>
+            <option value="Benz">Benz</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini">Lamborghini</option>
+        </select>
+        <!-- <br> -->
+        <!-- <label for="mech">Under Mech. Engine:</label> -->
+        <select id="mech" name="mech">
+            <option value="" disabled selected>Select a field</option>
+            <option value="Energy System">Energy System</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Mechatronics">Mechatronics</option>
+            <option value="Aerospace">Aerospace</option>
+            <option value="Fluid Mechanics">Fluid Mechanics</option>
+        </select>
+
+        <input type="submit">
      </form>
 </body>
 </html>
