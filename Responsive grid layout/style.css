@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    /* to hide scrollbar */
+    scrollbar-width: none;  /* For Firefox */
+}
+
+/* to hide scroolbar */
+::-webkit-scrollbar{   /* For WebKit browsers (Chrome, Safari, Opera) */
+    display: none;
+}
+
+section#images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+section#images img{
+    width: 100%; /* Fluid width */
+    height: 100%; /* Fluid height */
+    object-fit: cover; /* Ensures images cover the container while maintaining aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+section#images img:hover{
+    transform: scale(1.05);
+}
+
+section#text{
+    padding: 0 20px;
+}
+
+.intro{
+    padding: 20px 20px;
+}
+
+/* where my focus is on */
+
+/* grid for 3 */
+@media (max-width: 1190px){
+    section#images{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* grid for 2 */
+@media (max-width: 917px){
+    section#images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* grid for 1 */
+@media (max-width: 670px){
+    section#images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* 910px */
