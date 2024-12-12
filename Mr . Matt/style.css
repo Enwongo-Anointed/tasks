@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+#image-text{
+    background-color: white;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+#centre{
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#centre p{
+    font-size: 25px;
+}
+
+
+#with-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+#with-images div{
+    width: 22.5vw; /* Fluid width */
+    height: 30vh; /* Fluid height */
+    border-radius: 10px;
+}
+
+#with-images p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    /* align-items: center; */
+    padding: 60px 15px;
+}
+
+#aquisition{
+    background-image: url(https://img.freepik.com/free-vector/international-trade-concept-illustration_114360-9151.jpg?ga=GA1.1.59562584.1732020089&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
+}
+
+#aquisition p, #others p{
+    color: black;
+}
+
+#storage{
+    background-image: url(https://img.freepik.com/premium-photo/exterior-modern-distribution-center-warehouse-grey-door-facade_100800-22439.jpg?w=740);
+    background-size: cover;
+    background-position: center;
+}
+
+#transportation{
+    background-image: url(https://img.freepik.com/free-photo/truck-with-white-trailer-that-says-scania-side_123827-23486.jpg?ga=GA1.1.59562584.1732020089&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
+}
+
+#others{
+    background-image: url(https://img.freepik.com/free-vector/electronic-document-electronic-paper-paperless-office-internet-article-online-documentation-organization-typing-text-file-computer-vector-isolated-concept-metaphor-illustration_335657-2745.jpg?ga=GA1.1.59562584.1732020089&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
+}
+
+#one{
+    padding-left: 50px;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 10px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+#images img{
+    width: 30vw; /* Fluid width */
+    height: 40vh; /* Fluid height */
+    border-radius: 10px;
+    object-fit: cover; /* Ensures images cover the container while maintaining aspect ratio */
+
+}
+
+#our-job{
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+#action{
+    text-align: center;
+}
+
+#Ok{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+/* from GPT hereon */
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid white;
+}
+
+.form-container h1 {
+    font-size: 24px;
+    color: #f57c00;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-container button {
+    background-color: #f57c00;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #d86700;
+}
