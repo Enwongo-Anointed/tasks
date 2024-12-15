@@ -240,5 +240,16 @@ form h2{
 }
 
 @media (max-width: 670px){
+    #with-images{
+        /* gap: 5px; */
+        padding-left: 4px;
+    }
+
+    #images img{
+        width: 44vw; /* Fluid width */
+        height: 40vh; /* Fluid height */
+        border-radius: 10px;
+        object-fit: cover; /* Ensures images cover the container while maintaining aspect ratio */
     
+    }
 }
