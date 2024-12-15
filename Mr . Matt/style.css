@@ -16,14 +16,18 @@ body{
     margin-bottom: 5vh;
 }
 
+#image-text img{
+    height: 22%;
+    width: 22%;
+}
+
 #centre{
     text-align: center;
     padding-top: 25px;
-
 }
 
-#centre p{
-    font-size: 25px;
+#centre h3, p{
+    font-size: 150%;
 }
 
 
@@ -46,7 +50,7 @@ body{
 
 #with-images p{
     color: yellow;
-    font-size: 25px;
+    font-size: 125%;
     font-weight: 700;
     /* align-items: center; */
     padding: 60px 15px;
@@ -85,6 +89,7 @@ body{
     font-size: 25px;
     text-align: center;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 #images{
@@ -104,8 +109,8 @@ body{
 }
 
 #our-job{
-    padding-left: 40px;
-    font-size: 25px;
+    padding-left: 10%;
+    font-size: 130%;
 }
 
 #action{
@@ -121,10 +126,11 @@ body{
 /* from GPT hereon */
 
 .form-container {
+    justify-self: center;
     background-color: #ffffff;
     border-radius: 15px;
     padding: 30px;
-    width: 400px;
+    width: 50%;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 3px solid white;
@@ -132,13 +138,12 @@ body{
 
 .form-container h1 {
     font-size: 24px;
-    color: #f57c00;
+    color: yellowgreen;
     margin-bottom: 10px;
 }
 
 .form-container p {
-    font-size: 14px;
-    color: #666;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
@@ -148,9 +153,8 @@ body{
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .form-container textarea {
@@ -159,13 +163,82 @@ body{
 }
 
 .form-container button {
-    background-color: #f57c00;
+    background-color: yellowgreen;
     color: white;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 .form-container button:hover {
-    background-color: #d86700;
+    background-color: yellow;
+    color: black;
+}
+
+/* GPT ends here */
+
+form{
+    text-align: left;
+}
+
+form h2{
+    padding-left: 10px;
+}
+
+
+/* sth to remember */
+
+@media (max-width: 1190px){
+    #centre{
+        padding-bottom: 2%;
+    }
+
+    #with-images p{
+        padding: 10% 5px;
+    }
+    
+}
+
+
+@media (max-width: 917px){
+    #with-images{
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    #with-images div{
+        width: 47vw; /* Fluid width */
+        height: 30vh; /* Fluid height */
+    }
+
+    #with-images p{
+        padding: 3% 5px;
+    
+    }
+
+    #storage p{
+        color: black;
+    }
+
+    #transportation p{
+        color: white;
+    }
+
+    .form-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 810px){
+    #images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #images img{
+        width: 47vw; /* Fluid width */
+        height: 35vh; /* Fluid height */
+    }
+}
+
+@media (max-width: 670px){
+    
 }
